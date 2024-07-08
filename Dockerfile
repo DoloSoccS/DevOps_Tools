@@ -10,7 +10,7 @@ COPY . /app
 RUN python -m pip install -r requirements.txt
 # Command line arguments that will execute once the container is running
 
-#EXPOSE
+EXPOSE 8080
 # Used for opening ports
 
 CMD python ./flaskApp.py
